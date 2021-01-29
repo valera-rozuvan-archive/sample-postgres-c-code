@@ -2,6 +2,10 @@
 
 Following the tutorial [PostgreSQL C tutorial](https://zetcode.com/db/postgresqlc/), you can find all the code in this repo. A simple [Makefile](./Makefile) has been provided to build all the code into individual executables.
 
+Big shout out to the original author [Jan Bodnar](https://github.com/janbodnar) for the sample code. Check out his [zetcode.com](http://zetcode.com) for more awesome stuff!
+
+Motivation behind this repository is to make all examples build with one command on Linux and MacOS. I want a reference for myself in the future for how to work with Postgres via C code. In case original source `zetcode.com` ever goes down, this will remain intact :) Hopefully GitHub is here to stay for a long time to come!
+
 ## Prerequisites
 
 In order for the code to compile and for you to be able to run the executables, you need to make sure several things have been setup properly.
