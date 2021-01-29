@@ -4,17 +4,31 @@ Following the tutorial [PostgreSQL C tutorial](https://zetcode.com/db/postgresql
 
 ## Prerequisites
 
+In order for the code to compile and for you to be able to run the executables, you need to make sure several things have been setup properly.
+
+### The libpq development sources
+
 Make sure you have `libpq` dev files installed. On a Debian based system you can do:
 
 ```
 sudo aptitude install libpq-dev
 ```
 
+On a MacOS system you can do:
+
+```
+brew install libpq
+```
+
+### Running a Postgres DB server
+
 Configure your Postgres DB so that the sample programs can connect to it using the following connection details:
 
 ```
 host=localhost port=5432 user=postgres password=postgres dbname=api_data
 ```
+
+### Standard build tools
 
 You also need `gcc` and `make`.
 
