@@ -64,6 +64,10 @@ total: 0 errors, 0 warnings, 13 lines checked
 ./01_lib_version.c has no obvious style problems and is ready for submission.
 ```
 
+## Distributing your executable for a fresh MacOS install
+
+If the app is installed on a fresh/clean Mac running macOS that has no version of Postgres or Xcode installed, where will the Postgres lib/drivers be found? See some interesting discussion on this topic over at the Apple Developer forums: [Deploying a Postgres client app: where is libpq.tbd?](https://developer.apple.com/forums/thread/65619).
+
 ## License
 
 The work is licensed under the [MIT](https://opensource.org/licenses/MIT) license. Please see [LICENSE](./LICENSE) for more details. Inside individual source code files, license is indicated using the [SPDX](https://spdx.org/licenses/) format.
