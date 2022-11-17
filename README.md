@@ -1,5 +1,11 @@
 # Sample Postgres C code
 
+## wip has moved
+
+Future work on this repository has moved to the monorepo [valera-rozuvan/experiments](https://github.com/valera-rozuvan/experiments). This repo is archived for historic purposes (to preserve commit history). Navigate over to [experiments/sample-postgres-c-code](https://github.com/valera-rozuvan/experiments/tree/main/sample-postgres-c-code) to see updates (if any).
+
+## introduction
+
 Following the tutorial [PostgreSQL C tutorial](https://zetcode.com/db/postgresqlc/), you can find all the code in this repo. A simple [Makefile](./Makefile) has been provided to build all the code into individual executables.
 
 Big shout out to the original author [Jan Bodnar](https://github.com/janbodnar) for the sample code. Check out his [zetcode.com](http://zetcode.com) for more awesome stuff!
